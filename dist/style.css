@@ -1,0 +1,11 @@
+*{box-sizing:border-box}body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1b2a22;background:#f4f7f5}a{color:#0a6b47}
+header{background:#0c3b2e;color:#fff}header .w{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:14px 18px}header a{color:#fff;text-decoration:none}
+.brand{font-weight:700;font-size:1.15rem}nav a{margin-left:16px}.w{max-width:1000px;margin:0 auto;padding:0 18px}.hero{background:linear-gradient(135deg,#0c3b2e,#14614a);color:#fff;padding:34px 0}
+.hero h1{margin:0 0 6px}.f{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}.f input{flex:1 1 260px}.f input,.f select{padding:12px;border:1px solid #c5d3cc;border-radius:8px;font:inherit}
+.job{display:flex;justify-content:space-between;gap:10px;background:#fff;border:1px solid #dfe8e3;border-radius:10px;padding:14px 16px;margin-bottom:10px;text-decoration:none;color:inherit}
+.job:hover{border-color:#0a6b47}.job h3{margin:0;font-size:1.03rem;color:#0a3d2b}.m{font-size:.85rem;color:#5b6b63}.tag{display:inline-block;background:#e6f2ec;border-radius:99px;padding:1px 9px;font-size:.78rem;margin:4px 4px 0 0}
+.d{white-space:nowrap;font-size:.8rem;color:#5b6b63}.page{background:#fff;border:1px solid #dfe8e3;border-radius:10px;padding:24px;margin:24px 0}.btn{display:inline-block;background:#0a6b47;color:#fff!important;padding:11px 20px;border-radius:8px;text-decoration:none;border:0;font:inherit;cursor:pointer}
+.price{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}.price div{border:1px solid #dfe8e3;border-radius:10px;padding:16px}.price b{display:block;font-size:1.5rem}
+.sp{background:#fff8e1;border:1px dashed #c99a00;border-radius:8px;padding:10px;text-align:center;margin:14px 0;font-size:.9rem}.desc{white-space:pre-line;font-size:.95rem}
+footer{background:#0c3b2e;color:#b6c9bf;padding:22px 0;margin-top:24px;font-size:.85rem}footer a{color:#e3efe9}input[type=email]{padding:11px;border:1px solid #c5d3cc;border-radius:8px;width:100%;max-width:340px;font:inherit}
+@media(max-width:600px){.job{flex-direction:column}nav a{margin:0 12px 0 0}}
