@@ -25,7 +25,9 @@ def layout(title, desc, path, body, head=""):
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title>
 <meta name="description" content="{e(desc)}"><link rel="canonical" href="{SITE_URL}/{path}"><link rel="stylesheet" href="/style.css">{head}</head><body>
 <header><div class="w" style="max-width:1000px;margin:0 auto"><a class="brand" href="/">{e(SITE_NAME)}</a><nav><a href="/">Jobs</a><a href="/post-a-job/">Post a Job</a><a href="/digest/">Job Alerts</a></nav></div></header>
-{body}<footer><div class="w">© {today.year} {e(SITE_NAME)} · Remote accounting, bookkeeping & finance jobs. Listings link to the employer's original posting. <a href="/post-a-job/">Post a job</a></div></footer></body></html>"""
+{body}<footer><div class="w">© {today.year} {e(SITE_NAME)} · Remote accounting, bookkeeping & finance jobs. Listings link to the employer's original posting. <a href="/post-a-job/">Post a job</a></div></footer>
+<script>window.va=window.va||function(){{(window.vaq=window.vaq||[]).push(arguments)}};</script>
+<script defer src="/_vercel/insights/script.js"></script></body></html>"""
 def row(j):
     return (f'<a class="job" href="/jobs/{j["slug"]}/" data-role="{e(j["role"])}" data-scope="{j["scope"]}" data-s="{e((j["title"]+" "+j["company"]+" "+j["location"]).lower())}">'
             f'<div><h3>{e(j["title"])}</h3><div class="m">{e(j["company"])} · {e(j["location"])}</div><span class="tag">{e(j["role"])}</span><span class="tag">{"US remote" if j["scope"]=="US" else "Global/Intl remote"}</span></div>'

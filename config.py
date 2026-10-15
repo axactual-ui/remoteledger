@@ -5,3 +5,6 @@ SQUARE_LINK_FEATURED = "https://square.link/u/EXNkCB1g"  # Featured Job Post $79
 SQUARE_LINK_DIGEST = "https://square.link/u/xbx9u7x5"    # Digest Ad $99
 SQUARE_LINK_SPONSOR = "https://square.link/u/LJLpV13R"   # Sponsor Slot $199/mo
 DIGEST_FORM_ACTION = ""  # email signup endpoint; empty = email signup via CONTACT_EMAIL
+
+# Visitor analytics: Vercel Web Analytics (free Hobby, 50k events/mo). View at vercel.com → project → Analytics.
+# No site code needed; script is injected by build.py.
